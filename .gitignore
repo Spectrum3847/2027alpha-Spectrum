@@ -41,6 +41,7 @@
 
 # Log file
 *.log
+*.wpilog
 
 # BlueJ files
 *.ctxt
@@ -56,6 +57,7 @@
 *.zip
 *.tar.gz
 *.rar
+*.bin
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -109,6 +111,7 @@ Temporary Items
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/spellright.dict
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -138,6 +141,12 @@ $RECYCLE.BIN/
 ### Gradle ###
 .gradle
 /build/
+build/*
+bin/*
+ctre_sim/*
+.gradle/buildOutputCleanup/*
+.gradle/file-system.probe
+src/main/java/frc/robot/BuildConstants.java
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -168,11 +177,8 @@ out/
 # Fleet
 .fleet
 
-# Simulation GUI and other tools window save file
-networktables.json
-simgui.json
-*-window.json
-
+#lock files
+*.lock
 # Simulation data log directory
 logs/
 
@@ -182,6 +188,3 @@ ctre_sim/
 # clangd
 /.cache
 compile_commands.json
-
-# Eclipse generated file for annotation processors
-.factorypath

@@ -81,6 +81,12 @@ public class Auton {
 
         pathChooser.addOption("Drive Forward", SpectrumAuton("Drive Forward", false));
 
+        pathChooser.addOption("Left | SecretAuto", secretAuto(false));
+        pathChooser.addOption("Right | SecretAuto", secretAuto(true));
+
+
+        pathChooser.addOption("TEST AUTO", secretAutoTest(false));
+
         SmartDashboard.putData("Auto Chooser", pathChooser);
     }
 
@@ -138,9 +144,9 @@ public class Auton {
     public Command secretAuto(boolean mirrored) {
         return (SpectrumAuton("SecretAuto0.5", mirrored)
                         .andThen(
-                                fullSequenceAimL4Score(0.25),
+                                fullSequenceAimL4Score(1.25),
                                 SpectrumAuton("SecretAuto", mirrored),
-                                fullSequenceAimL4Score(0.25)))
+                                fullSequenceAimL4Score(1.25)))
                 .withName("Secret Auto");
     }
 
@@ -160,12 +166,6 @@ public class Auton {
                                 SpectrumAuton("SockretAutoP3", mirrored),
                                 fullSequenceAimL4Score(0.3)))
                 .withName("Sockret Auto");
-    }
-
-    // Aaron's code (To see the difference between ours and his)
-    public Command secretAutoTest2(boolean mirrored) {
-        return (SpectrumAuton("TEST1", mirrored).andThen(SpectrumAuton("TEST2", mirrored)))
-                .withName("TEST FULL");
     }
 
     public Command secretAuto2(boolean mirrored) {
@@ -238,9 +238,9 @@ public class Auton {
                                 .andThen(
                                         Commands.wait(0.05),
                                         RobotStates.actionPrepState.setTrue(),
-                                        Commands.wait(0.9),
+                                        Commands.wait(2.5),
                                         RobotStates.actionPrepState.setFalse(),
-                                        Commands.wait(0.5),
+                                        Commands.wait(1.5),
                                         RobotStates.homeAll.toggleToTrue(),
                                         Commands.wait(0.5)));
     }

@@ -1,0 +1,303 @@
+{
+  "HALProvider": {
+    "Addressable LEDs": {
+      "0": {
+        "columns": 30
+      },
+      "window": {
+        "visible": true
+      }
+    },
+    "Other Devices": {
+      "window": {
+        "visible": false
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Alerts": "Alerts",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/Field2d": "Field2d",
+      "/SmartDashboard/Hold Controller": "PIDController",
+      "/SmartDashboard/LeftView": "Mechanism2d",
+      "/SmartDashboard/PathPlanner": "Alerts",
+      "/SmartDashboard/Rotation Controller": "ProfiledPIDController",
+      "/SmartDashboard/Rotation Motion Controller": "ProfiledPIDController",
+      "/SmartDashboard/Scheduler": "Scheduler",
+      "/SmartDashboard/States": "Alerts",
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": "Field2d",
+      "/SmartDashboard/X Controller": "ProfiledPIDController",
+      "/SmartDashboard/X controller": "ProfiledPIDController",
+      "/SmartDashboard/Y Controller": "ProfiledPIDController",
+      "/SmartDashboard/Y controller": "ProfiledPIDController",
+      "/SmartDashboard/frontView": "Mechanism2d",
+      "/SmartDashboard/tagCenterController": "PIDController",
+      "/SmartDashboard/tagDistanceController": "PIDController",
+      "/SmartDashboard/vision": "Subsystem"
+    },
+    "windows": {
+      "/SmartDashboard/Alerts": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Auto Chooser": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field2d": {
+        "Robot": {
+          "arrowColor": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "color": [
+            0.32549020648002625,
+            0.10588235408067703,
+            0.7215686440467834,
+            255.0
+          ],
+          "length": 0.9269999861717224,
+          "style": "Box/Image",
+          "width": 0.9269999861717224
+        },
+        "bottom": 1638,
+        "height": 8.051901817321777,
+        "left": 534,
+        "limelight-back": {
+          "arrows": false,
+          "style": "Hidden"
+        },
+        "limelight-front": {
+          "arrows": false,
+          "style": "Hidden"
+        },
+        "path": {
+          "arrows": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "selectable": false,
+          "style": "Line",
+          "weight": 2.0
+        },
+        "right": 3466,
+        "top": 291,
+        "width": 17.54825210571289,
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/LeftView": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Scheduler": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/States": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": {
+        "Robot": {
+          "arrowColor": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "color": [
+            0.32451581954956055,
+            0.10655344277620316,
+            0.7215189933776855,
+            255.0
+          ],
+          "length": 0.9100000262260437,
+          "width": 0.9100000262260437
+        },
+        "apriltag": {
+          "image": "./images/tag-blue.png"
+        },
+        "bottom": 1638,
+        "cameras": {
+          "length": 0.10000000149011612,
+          "width": 0.10000000149011612
+        },
+        "height": 8.051901817321777,
+        "left": 534,
+        "right": 3466,
+        "top": 291,
+        "visibleTargetPoses": {
+          "image": "./images/tag-green.png"
+        },
+        "width": 17.54825210571289,
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/frontView": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "CameraPublisher": {
+        "open": true
+      },
+      "Pose2d##v_SwervePose": {
+        "Rotation2d##v_rotation": {
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "open": true
+      },
+      "SwerveModuleState[]##v_SwerveStates": {
+        "SwerveModuleState##v_[1]": {
+          "open": true
+        },
+        "SwerveModuleState##v_[2]": {
+          "open": true
+        },
+        "SwerveModuleState##v_[3]": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  },
+  "Plot": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 299,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/X Controller Output",
+              "weight": 3.0
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Y Controller Output",
+              "weight": 3.0
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Drive/Back Left Velocity"
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Drive/Back Right Velocity"
+            },
+            {
+              "color": [
+                0.5058823823928833,
+                0.44705885648727417,
+                0.7019608020782471,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Drive/Front Left Velocity"
+            },
+            {
+              "color": [
+                0.5764706134796143,
+                0.4705882668495178,
+                0.3764706254005432,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Drive/Front Right Velocity"
+            }
+          ]
+        },
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 299,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Drive/Robot Angle"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:SwervePose/rotation/value"
+            }
+          ]
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    }
+  }
+}
