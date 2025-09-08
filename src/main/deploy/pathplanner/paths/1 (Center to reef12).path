@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 1.93,
-        "y": 4.02
+        "x": 7.2,
+        "y": 4.0
       },
       "prevControl": null,
       "nextControl": {
-        "x": 2.179993122886852,
-        "y": 4.018145678215807
+        "x": 6.7,
+        "y": 4.0
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 2.85,
-        "y": 4.02
+        "x": 5.957,
+        "y": 4.0
       },
       "prevControl": {
-        "x": 2.6001036850726664,
-        "y": 4.012800570457393
+        "x": 6.457,
+        "y": 4.0
       },
       "nextControl": null,
       "isLocked": false,
@@ -31,31 +31,53 @@
   "rotationTargets": [],
   "constraintZones": [],
   "pointTowardsZones": [],
+<<<<<<< Updated upstream
+  "eventMarkers": [],
+=======
   "eventMarkers": [
     {
-      "name": "",
+      "name": "coral",
+      "waypointRelativePos": 0,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "rightL4",
+      "waypointRelativePos": 0,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "score",
+      "waypointRelativePos": 0,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "home",
       "waypointRelativePos": 0,
       "endWaypointRelativePos": null,
       "command": null
     }
   ],
+>>>>>>> Stashed changes
   "globalConstraints": {
-    "maxVelocity": 4.0,
-    "maxAcceleration": 4.0,
+    "maxVelocity": 2.5,
+    "maxAcceleration": 2.5,
     "maxAngularVelocity": 540.0,
     "maxAngularAcceleration": 720.0,
-    "nominalVoltage": 10.0,
+    "nominalVoltage": 12.0,
     "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": 180.0
   },
   "reversed": false,
-  "folder": "Blue Left Preload-Source ",
+  "folder": "def not secret auto",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": 180.0
   },
   "useDefaultConstraints": true
 }

@@ -7,55 +7,49 @@
         {
           "type": "path",
           "data": {
-            "pathName": null
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 0.5
+            "pathName": "1 (left to reef10)"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": null
+            "pathName": "2 (reef10 to processor)"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": null
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 0.5
+            "pathName": "3 (processor to reef8)"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": null
+            "pathName": "4 (reef8 to processor)"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": null
+            "pathName": "3.5 (processor to reef8)"
           }
         },
         {
-          "type": "wait",
+          "type": "path",
           "data": {
-            "waitTime": 0.5
+            "pathName": "4 (reef8 to processor)"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "5 (processor to reef10)"
           }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": "Blue Left Origin",
+  "folder": "def not secret auto",
   "choreoAuto": false
 }

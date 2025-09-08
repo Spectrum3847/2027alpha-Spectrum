@@ -7,19 +7,19 @@
         {
           "type": "path",
           "data": {
-            "pathName": "2 - W3C"
+            "pathName": "TEST 2 (reef10 to processor)"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": "3L - L4 Trough Rush"
+            "pathName": "TEST 3 (processor to reef8)"
           }
         }
       ]
     }
   },
-  "resetOdom": true,
-  "folder": "Houston 2 Coral",
+  "resetOdom": false,
+  "folder": "def not secret auto",
   "choreoAuto": false
 }

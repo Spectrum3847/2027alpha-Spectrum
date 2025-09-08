@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 5.315941011235955,
-        "y": 5.44
+        "x": 6.0951560468140435,
+        "y": 6.668205461638491
       },
       "prevControl": null,
       "nextControl": {
-        "x": 4.535393258426967,
-        "y": 6.062640449438202
+        "x": 5.776065137723134,
+        "y": 5.920336143456673
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 1.89,
-        "y": 5.83
+        "x": 5.255028409090909,
+        "y": 5.246519886363636
       },
       "prevControl": {
-        "x": 2.900351123595505,
-        "y": 5.873665730337078
+        "x": 5.564145217634396,
+        "y": 5.934560786604079
       },
       "nextControl": null,
       "isLocked": false,
@@ -33,9 +33,15 @@
   "pointTowardsZones": [],
   "eventMarkers": [
     {
-      "name": "",
-      "waypointRelativePos": 0.0,
-      "endWaypointRelativePos": 1.0,
+      "name": "rightL4",
+      "waypointRelativePos": 0.8547297297297232,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "score",
+      "waypointRelativePos": 1.0,
+      "endWaypointRelativePos": null,
       "command": null
     }
   ],
@@ -49,13 +55,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -122.619
   },
   "reversed": false,
-  "folder": "Blue Left Preload-Source ",
+  "folder": "def not secret auto",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": -119.99999999999999
+    "rotation": -119.16799999999999
   },
   "useDefaultConstraints": true
 }

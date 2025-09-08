@@ -135,6 +135,44 @@ public class Auton {
                 .withName("W3A-Full");
     }
 
+    public Command secretAuto(boolean mirrored) {
+        return (SpectrumAuton("SecretAuto0.5", mirrored)
+                        .andThen(
+                                fullSequenceAimL4Score(0.25),
+                                SpectrumAuton("SecretAuto", mirrored),
+                                fullSequenceAimL4Score(0.25)))
+                .withName("Secret Auto");
+    }
+
+    public Command secretAutoTest(boolean mirrored) {
+        return (SpectrumAuton("TEST1", mirrored).andThen(SpectrumAuton("TEST2", mirrored)))
+                .withName("TEST FULL");
+    }
+
+    public Command sockretAuto(boolean mirrored) {
+        return (SpectrumAuton("SecretAuto0.5", mirrored)
+                        .andThen(
+                                fullSequenceAimL4Score(0.3),
+                                SpectrumAuton("SockretAutoP1", mirrored),
+                                fullSequenceAimL4Score(0.3),
+                                SpectrumAuton("SockretAutoP2", mirrored),
+                                fullSequenceAimL4Score(0.3),
+                                SpectrumAuton("SockretAutoP3", mirrored),
+                                fullSequenceAimL4Score(0.3)))
+                .withName("Sockret Auto");
+    }
+
+    // Aaron's code (To see the difference between ours and his)
+    public Command secretAutoTest2(boolean mirrored) {
+        return (SpectrumAuton("TEST1", mirrored).andThen(SpectrumAuton("TEST2", mirrored)))
+                .withName("TEST FULL");
+    }
+
+    public Command secretAuto2(boolean mirrored) {
+        return (SpectrumAuton("SecretAuto0.5", mirrored)
+                .andThen(SpectrumAuton("SecretAuto", mirrored)));
+    }
+
     public Command aimScore(double alignTime) {
         return SwerveStates.reefAimDriveVisionXY()
                 .withTimeout(alignTime)

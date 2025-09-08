@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 1.89,
-        "y": 5.83
+        "x": 6.0328125,
+        "y": 6.951661931818181
       },
       "prevControl": null,
       "nextControl": {
-        "x": 3.240911801010091,
-        "y": 5.661047815297559
+        "x": 5.713721590909091,
+        "y": 6.203792613636363
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 3.68,
-        "y": 5.44
+        "x": 5.255028409090909,
+        "y": 5.246519886363636
       },
       "prevControl": {
-        "x": 2.5111575894449834,
-        "y": 5.6842784700032825
+        "x": 5.564145217634396,
+        "y": 5.934560786604079
       },
       "nextControl": null,
       "isLocked": false,
@@ -31,14 +31,7 @@
   "rotationTargets": [],
   "constraintZones": [],
   "pointTowardsZones": [],
-  "eventMarkers": [
-    {
-      "name": "",
-      "waypointRelativePos": 0.0,
-      "endWaypointRelativePos": null,
-      "command": null
-    }
-  ],
+  "eventMarkers": [],
   "globalConstraints": {
     "maxVelocity": 4.0,
     "maxAcceleration": 4.0,
@@ -49,13 +42,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": -59.99999999999999
+    "rotation": -122.619
   },
   "reversed": false,
-  "folder": "Blue Left Preload-Source ",
+  "folder": "def not secret auto",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -119.16799999999999
   },
   "useDefaultConstraints": true
 }

@@ -7,13 +7,19 @@
         {
           "type": "path",
           "data": {
-            "pathName": "1 Meter"
+            "pathName": "4 (reef8 to processor)"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "3.5 (processor to reef8)"
           }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": "Config Autos",
+  "folder": "def not secret auto",
   "choreoAuto": false
 }

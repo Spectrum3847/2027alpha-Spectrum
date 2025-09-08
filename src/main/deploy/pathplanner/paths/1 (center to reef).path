@@ -3,25 +3,34 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 1.24,
-        "y": 7.05
+        "x": 7.0,
+        "y": 4.05
       },
       "prevControl": null,
       "nextControl": {
-        "x": 2.1602247191011235,
-        "y": 6.737780898876404
+        "x": 6.0,
+        "y": 4.05
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 5.315941011235955,
-        "y": 5.44
+<<<<<<<< HEAD:src/main/deploy/pathplanner/paths/1 (center to reef(12)).path
+        "x": 6.2,
+        "y": 4.05
       },
       "prevControl": {
-        "x": 5.0539325842696625,
-        "y": 6.129747191011236
+        "x": 7.2,
+        "y": 4.05
+========
+        "x": 6.179,
+        "y": 4.049648876404493
+      },
+      "prevControl": {
+        "x": 6.918466292134831,
+        "y": 4.049648876404493
+>>>>>>>> 3efa9de80ae36358fff35b94397a8e816e10ee56:src/main/deploy/pathplanner/paths/1 (center to reef).path
       },
       "nextControl": null,
       "isLocked": false,
@@ -31,31 +40,24 @@
   "rotationTargets": [],
   "constraintZones": [],
   "pointTowardsZones": [],
-  "eventMarkers": [
-    {
-      "name": "",
-      "waypointRelativePos": 0,
-      "endWaypointRelativePos": null,
-      "command": null
-    }
-  ],
+  "eventMarkers": [],
   "globalConstraints": {
-    "maxVelocity": 4.0,
-    "maxAcceleration": 4.0,
+    "maxVelocity": 2.5,
+    "maxAcceleration": 2.5,
     "maxAngularVelocity": 540.0,
     "maxAngularAcceleration": 720.0,
-    "nominalVoltage": 10.0,
+    "nominalVoltage": 12.0,
     "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": -119.99999999999999
+    "rotation": 0.0
   },
   "reversed": false,
-  "folder": "Blue Left Preload-Source ",
+  "folder": "def not secret auto",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": -53.5
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }
