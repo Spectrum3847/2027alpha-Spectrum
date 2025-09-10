@@ -101,7 +101,7 @@ public class Robot extends SpectrumRobot {
 
     public Robot() {
         super();
-        Telemetry.start(true, true, PrintPriority.NORMAL);
+        // Telemetry.start(true, true, PrintPriority.NORMAL);
 
         try {
             Telemetry.print("--- Robot Init Starting ---");
