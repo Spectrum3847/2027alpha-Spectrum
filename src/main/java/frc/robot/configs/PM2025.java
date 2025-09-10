@@ -27,6 +27,6 @@ public class PM2025 extends Config {
         shoulder.setCANcoderOffset(0.035318666);
         elbow.setCANcoderAttached(false);
         twist.setCANcoderAttached(true);
-        twist.setCANcoderOffset(-0.385254);
+        twist.setCANcoderOffset(-0.226318);
     }
 }
